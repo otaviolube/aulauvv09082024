@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid black;
+            margin: 10px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+            padding: 20px;
+        }
+
+        .header .foto {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .header .nome {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            padding: 20px;
+        }
+
+        .content .imagem {
+            width: 200px;
+            height: 150px;
+            border: 1px solid black;
+            margin-right: 20px;
+        }
+
+        .content .texto {
+            flex: 1;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="foto">Foto</div>
+            <div class="nome">Otávio Lube dos Santos</div>
+        </div>
+        <div class="content">
+            <div class="imagem"></div>
+            <div class="texto">Texto sobre a imagem</div>
+        </div>
+        <div class="footer">
+            Rodapé
+        </div>
+    </div>
+</body>
+</html>
